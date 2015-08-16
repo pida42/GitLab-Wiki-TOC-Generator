@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        GitLab-Wiki-TOC-Generator
+// @author      Franisek Preissler <github@ntisek.cz>
 // @namespace   http://pida.space/GitLab-Wiki-TOC-Generator/
 // @include     http://*
 // @include     https://*
