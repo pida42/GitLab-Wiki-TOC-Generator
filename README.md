@@ -1,48 +1,29 @@
-# GitLab Wiki TOC by UserScript
+# GitLab Wiki TOC Generator
 
-GitLab の Wiki ページに目次を追加するユーザースクリプトです。
+Browser script addon that can generate TOC (table of content) for GitLab wikipages.
 
-## インストール（Firefox）
+## Requirements
 
-下記のリンクをクリックしてインストールします。
+**Browser extension**
 
- - [gitlab-wiki-toc.user.js][]
+* ~~(not implemented yet) Mozilla Firefox - [GreaseMonkey](https://addons.mozilla.org/cs/firefox/addon/greasemonkey/)~~
+* Google Chrome - [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
-Greasemonkey の「ユーザースクリプトの管理」から「GitLab Wiki TOC」の「設定」をクリックし、
-ユーザー設定に目次を表示させたい GitLab の URL を次のように追加します。
+## Instalation
 
-```
-http://gitlab.example.net/*
-```
+1. First install browser extension:
+    a. ~~(not implemented yet) Mozilla Firefox - [GreaseMonkey](https://addons.mozilla.org/cs/firefox/addon/greasemonkey/)~~
+    a. Google Chrome - [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+1. Install TOC generator, just simple click [gitlab-wiki-toc-generator.user.js](./gitlab-wiki-toc-generator.user.js)
 
-## インストール（Chrome）
+## configuration
 
-下記のリンクを右クリックから **名前を付けてリンク先を保存** します。
+Sorry, but script is ready after installation ;) Script can detect GitLab wiki pages by self, so you can have it enabled for all time while browsing...
 
- - [gitlab-wiki-toc.user.js][]
+## ToDo
 
-スクリプトをエディタで開き、上の方のコメントの中にある `@include` を目次を表示させたい GitLab の URL に書き換えます。
+1. Implementation and test in Mozilla Firefox.
 
-```
-// ==UserScript==
-// @name        GitLab Wiki TOC
-// @namespace   http://ngyuki.net/
-// @include     http://gitlab.example.net/*
-// @version     0.0.1
-// @grant       none
-// ==/UserScript==
-```
+---
 
-Chrome の拡張機能の画面にスクリプトをドラッグアンドドロップします。
-
-
-## 使い方
-
-GitLab の Wiki ページを開くと右上の方に目次が表示されます。
-
-目次の右上端の `+` をクリックすると目次が小さくなって閉じられます。
-
-もう一度クリックすると目次が表示されます。
-
-
-[gitlab-wiki-toc.user.js]: https://github.com/ngyuki/gmscript-gitlab-wiki-toc/raw/master/gitlab-wiki-toc.user.js "gitlab-wiki-toc.user.js"
+That's all...
