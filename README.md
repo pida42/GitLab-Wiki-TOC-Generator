@@ -14,7 +14,7 @@ Browser script addon that can generate TOC (table of content) for GitLab wikipag
 1. First install browser extension:
     a. ~~(not implemented yet) Mozilla Firefox - [GreaseMonkey](https://addons.mozilla.org/cs/firefox/addon/greasemonkey/)~~
     a. Google Chrome - [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
-1. Install TOC generator, just simple click [gitlab-wiki-toc-generator.user.js](raw/master/gitlab-wiki-toc-generator.user.js)
+1. Install TOC generator, just simple click [gitlab-wiki-toc-generator.user.js](../../raw/gitlab-wiki-toc-generator.user.js)
 
 ## configuration
 
