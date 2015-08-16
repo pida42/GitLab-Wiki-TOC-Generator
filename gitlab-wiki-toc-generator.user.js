@@ -7,7 +7,7 @@
 // @match       http://*
 // @match       https://*
 // @require     https://code.jquery.com/jquery-2.1.4.min.js
-// @version     1.0.0
+// @version     1.0.1
 // @grant       GM_addStyle
 // ==/UserScript==
 
@@ -46,7 +46,13 @@
             config: {
                 containerClass: '.wiki-holder',
                 wikiContentClass: '.content',
-                searchHeadsNestingLevels: {h1: 1, h2: 2, h3: 3, h4: 4, h5: 5},
+                searchHeadsNestingLevels: {
+                    h1: 1,
+                    h2: 2,
+                    h3: 3,
+                    h4: 4,
+                    h5: 5
+                },
                 showHideAnimSpeed: 250
             },
 
@@ -55,7 +61,7 @@
                 clear: '<div class="toc-clear" />',
                 box: '<div id="toc-box" />',
                 boxHead: '<div class="toc-box-head" />',
-                tocTitle: '<span class="toc-title">Table of content</span>',
+                tocTitle: '<span class="toc-title">TOC</span>',
                 tocDelimiter: '<span class="toc-delimiter">|</span>',
                 showHide: '<a href="javascript:void(0);" class="toc-show-hide">-</a>',
                 toc: '<div id="toc" />',
